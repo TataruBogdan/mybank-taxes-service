@@ -2,9 +2,9 @@ package banking.tax;
 
 
 import banking.tax.dao.TaxRepository;
-import banking.tax.model.OperationType;
-import banking.tax.model.Tax;
-import banking.tax.model.TaxType;
+import banking.commons.tax.model.OperationType;
+import banking.commons.tax.model.Tax;
+import banking.commons.tax.model.TaxType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

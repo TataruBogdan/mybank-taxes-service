@@ -1,6 +1,8 @@
 package banking.tax.model;
 
 
+import banking.commons.tax.model.OperationType;
+import banking.commons.tax.model.TaxType;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 
