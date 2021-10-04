@@ -2,9 +2,6 @@ package banking.tax;
 
 
 import banking.tax.dao.TaxRepository;
-import banking.commons.tax.model.OperationType;
-import banking.commons.tax.model.Tax;
-import banking.commons.tax.model.TaxType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,8 +25,8 @@ public class TaxApplication implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        logger.info("taxes -> {}", taxRepository.save(new Tax(123, OperationType.CREATE_ACCOUNT,
-                TaxType.FIX_AMOUNT, 1235.00 )));
+//        logger.info("taxes -> {}", taxRepository.save(new Tax(123, OperationType.CREATE_ACCOUNT,
+//                TaxType.FIX_AMOUNT, 1235.00 )));
 
     }
 }
