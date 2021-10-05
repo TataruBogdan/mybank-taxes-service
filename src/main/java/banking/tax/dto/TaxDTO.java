@@ -1,7 +1,8 @@
 package banking.tax.dto;
 
-import banking.commons.tax.model.OperationType;
-import banking.commons.tax.model.TaxType;
+
+import banking.tax.model.OperationType;
+import banking.tax.model.TaxType;
 import lombok.Data;
 
 @Data
